@@ -1,0 +1,5 @@
+自己申请了一个域名facialprogrammer.xyz
+ 在域名管理里将该域名解析到本机IP localhost=192.168.2.147
+在本机上部署nginx 服务器 在conf配置文件里将localhost：80对应自己网站try.js
+在其他设备上输入facialprogrammer.xyz 就能打开 try.js 
+如果出现403问题就需要关闭本机放火墙。
