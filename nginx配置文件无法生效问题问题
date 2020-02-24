@@ -1,0 +1,4 @@
+当配置文件无法生效的时候的，需要先kill掉所有nginx进程 cmd控制台输入：
+taskkill /fi "imagename eq nginx.exe" /f
+之后再nginx文件下进入cmd 输入 start nginx 和nginx -s reload 命令 
+配置文件即可生效!
